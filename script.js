@@ -16,6 +16,8 @@ if (mqlM.matches) {
                 alt="a photo of James Conway, the creater of this odd little world">
 
         </div>
+        
+        <script>document.getElementById("headshot").addEventListener("load", () => { alert("done") })</script>
 `
     document.getElementById("welcome").innerHTML = html;
 

@@ -50,7 +50,7 @@ header {
 /* Need to work out correct sizing Keep z index lower than #intro text to keep the text above the image */
 #headshot{
     height: 30em;
-    width: 30rem;
+    /* width: 30em;        use vw/vmin */
     position: absolute;
     top: 25%;
     left: 8%;
